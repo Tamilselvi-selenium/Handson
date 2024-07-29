@@ -24,8 +24,6 @@ public class CreateAccount {
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("crmsfa");
 		//click login button
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		//handling popup 
-		
 		//Click on the "CRM/SFA" link
 		driver.findElement(By.xpath("//a[contains(text(),'CRM/SFA')]")).click();
 		//Click on the "Accounts" tab.
